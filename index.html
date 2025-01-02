@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeu de Deviner le nombre</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Jeu de Deviner le nombre</h1>
+  <p>Devinez le nombre entre 0 et 1000. Vous avez 20 essais !</p>
+  <input type="number" id="guess" placeholder="Entrez votre chiffre" min="0" max="1000">
+  <button onclick="deviner()">Deviner</button>
+  <div class="message" id="message"></div>
+  <div class="message" id="essais-restants"></div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+/* Style global */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #4CAF50, #2F9E8D);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Titre principal */
+  h1 {
+    color: #fff;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Paragraphe explicatif */
+  p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Champ d'entrée */
+  input[type="number"] {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+  }
+  
+  input[type="number"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0px 0px 8px rgba(76, 175, 80, 0.8);
+  }
+  
+  /* Bouton */
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #4CAF50;
+    color: #fff;
+    transform: scale(1.1);
+  }
+  
+  button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  /* Messages */
+  .message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .message.green {
+    color: #4CAF50;
+  }
+  
+  .message.red {
+    color: #F44336;
+  }
+  
+  .message.blue {
+    color: #2196F3;
+  }
+  
+  /* Reste des essais */
+  #essais-restants {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
